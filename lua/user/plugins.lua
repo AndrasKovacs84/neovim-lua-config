@@ -57,6 +57,7 @@ return packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim"
   use "goolord/alpha-nvim"
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
+  use "mbbill/undotree"
   -- use "easymotion/vim-easymotion"
   use {
     'phaazon/hop.nvim',
