@@ -22,6 +22,7 @@ vim.api.nvim_create_autocmd("BufEnter", {
 })
 
 nvim_tree.setup {
+  respect_buf_cwd = true,
   renderer = {
     icons = {
       webdev_colors = true,
